@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6, p{
     cursor: pointer;
     outline: none;
     
+    
 }
 
 .nav-toggle-one{
@@ -82,6 +83,8 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .nav-toggle-one:focus{
     outline: none;
+    position:relative;
+    z-index:100;
     
 }
 .bars{
@@ -316,8 +319,8 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 0 20px;
     background-color: white;
     border-radius: 6px;
-     position:relative;
-     z-index:-1;
+     
+     
     
 }
 
