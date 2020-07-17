@@ -63,8 +63,7 @@ h1, h2, h3, h4, h5, h6, p{
     align-items: center;
     justify-content: space-between;
     padding: 0 0.8rem;
-    position:relative;
-    z-index:30;
+    
 }
 
 .nav-toggle-one{
@@ -75,6 +74,7 @@ h1, h2, h3, h4, h5, h6, p{
     transition: var(--transition);
     cursor: pointer;
     outline: none;
+    
 }
 
 .nav-toggle-one{
@@ -294,7 +294,7 @@ h1, h2, h3, h4, h5, h6, p{
     animation-delay: 2s;
     animation-duration: 1s;
     animation-iteration-count: 1;
-    position: relative;
+    
     
     
     
@@ -316,7 +316,8 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 0 20px;
     background-color: white;
     border-radius: 6px;
-     
+     position:relative;
+     z-index:-1;
     
 }
 
